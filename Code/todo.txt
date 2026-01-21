@@ -1,0 +1,17 @@
+1. Enhanced "Portfolio Analyst" Agent (Expanding on your idea)
+
+  This agent would be an evolution of the regime_interpretation_agent already in your code. Instead of just a one-way summary, it would provide deeper, more contextual insights for    
+  users.
+
+   * What it does:
+       * Narrative Reporting: It would generate a detailed but easy-to-read story about the portfolio's recent activity. For example: "Over the last quarter, the market shifted from a 
+         'Low-Volatility Growth' to a 'High-Volatility Sideways' regime. In response, the model reduced exposure to high-growth tech stocks and increased holdings in stable assets like
+         cash, aiming to preserve capital."
+       * Performance Attribution: The agent could explain why the portfolio performed the way it did. "The portfolio saw a 2% gain last month, primarily driven by the 'Energy' sector  
+         holdings which performed well during the inflationary regime. The timely reduction in 'Technology' exposure prevented potential losses of X%."
+       * Risk Forecasting: It could translate quantitative metrics (like VaR) into plain English. "Based on the current high-volatility regime, there is a 5% chance the portfolio could
+         lose approximately $5,000 over the next month. We are holding 30% cash to mitigate this risk."
+
+For portfolio
+Long : Built a regime-aware portfolio allocation system using HMMs to adapt asset weights across macro assets under changing market conditions. Enhanced regime detection with a Market Intelligence agent that incorporates news-based event detection and sentiment signals, enabling earlier identification of potential regime shifts and improved risk-aware decision making.
+Short : Designed a regime-aware macro asset allocation framework using HMMs, augmented with an AI-based market intelligence agent that integrates news sentiment and event signals to anticipate regime shifts and improve risk-adjusted allocation.
