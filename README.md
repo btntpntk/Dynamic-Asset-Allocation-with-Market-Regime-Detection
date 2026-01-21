@@ -1,4 +1,4 @@
-# Regime-Aware Portfolio Optimization Dashboard
+# Dynamic Asset Allocation with Market Regime Detection Dashboard
 
 This project is a Streamlit-based web application that implements and visualizes a regime-aware portfolio optimization strategy. The application identifies different market regimes (e.g., bull, bear, high/low volatility) using a Hidden Markov Model (HMM) and then constructs an optimal portfolio for each regime.
 
