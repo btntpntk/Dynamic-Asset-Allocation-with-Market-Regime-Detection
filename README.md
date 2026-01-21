@@ -1,8 +1,8 @@
-# 📊 Regime-Aware Portfolio Optimization Dashboard
+# Regime-Aware Portfolio Optimization Dashboard
 
 This project is a Streamlit-based web application that implements and visualizes a regime-aware portfolio optimization strategy. The application identifies different market regimes (e.g., bull, bear, high/low volatility) using a Hidden Markov Model (HMM) and then constructs an optimal portfolio for each regime.
 
-## ✨ Features
+## Features
 
 -   **Dynamic Market Regime Detection**: Utilizes a Hidden Markov Model (HMM) to classify market conditions into distinct regimes based on historical data.
 -   **Mean-Variance Optimization**: Constructs an optimal portfolio for each regime using mean-variance optimization.
@@ -11,7 +11,7 @@ This project is a Streamlit-based web application that implements and visualizes
 -   **AI-Powered Insights**: An optional "AI Portfolio Analyst" (powered by a Large Language Model) to provide qualitative commentary on the portfolio's risk and performance.
 -   **Performance and Risk Analysis**: Comprehensive performance and risk metrics, including Sharpe ratio, max drawdown, and Value at Risk (VaR).
 
-## ⚙️ How It Works
+## How It Works
 
 The core of the project is the `run_pipeline.py` script, which executes the following steps:
 
@@ -26,7 +26,7 @@ The core of the project is the `run_pipeline.py` script, which executes the foll
 
 The Streamlit application (`streamlit_app/app.py`) provides a user-friendly interface to configure the pipeline and visualize the results.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ streamlit run streamlit_app/app.py
 
 This will open the application in your web browser. You can then configure the backtest parameters in the sidebar and click "Run Analysis" to see the results.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── .env                  # Environment variables (e.g., API keys)
@@ -89,7 +89,7 @@ This will open the application in your web browser. You can then configure the b
     └── app.py            # Streamlit application
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 The main dependencies of the project are:
 
